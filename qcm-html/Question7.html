@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+  <html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questions - SN Game</title>
+    <link rel="icon" type="images/png" href="../images/logo-sn-game.png"> 
+    <link href="../css/bootstrap.min.css" href="../css/materialize.min.css" href="../css/button.css"  rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+      .card {
+        height: 100%;
+      }
+  
+      .card-img-top {
+        height: 70%;
+        object-fit: contain;
+      }
+
+      .purple-radio[type="radio"]:checked + span:after,
+      .purple-radio[type="radio"].with-gap:checked + span:before {
+        background-color: #4a148c;
+        border-color: black;
+      }
+
+    </style>
+  </head>
+  <body style="background-color: #d1c4e9">
+        <nav class="nav-extended">
+          <div class="nav-wrapper black">
+            <a href="#" class="brand-logo center">
+              <img src="../images/logo-sn-game.png" style="width: 60px;height: 60px;" alt="logo">
+            </a>
+    </div>
+    <div class="nav-content purple darken-4">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="../index.html">Accueil</a></li>
+        <li class="tab"><a class="active" href="#test2">Jeux</a></li>
+        <li class="tab"><a href="#test3">Contact</a></li>
+        <li class="tab disabled"><a href="#test4">Sponsors</a></li>
+      </ul>
+    </div>
+      </nav>
+
+          
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large deep-purple darken-2">
+        <i class="large material-icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-lg" viewBox="0 0 16 16">
+            <path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"/>
+          </svg>
+        </i>
+      </a>
+      <ul>
+        <li><a class="btn-floating deep-purple lighten-2"><i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-lg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.475 5.458c-.284 0-.514-.237-.47-.517C4.28 3.24 5.576 2 7.825 2c2.25 0 3.767 1.36 3.767 3.215 0 1.344-.665 2.288-1.79 2.973-1.1.659-1.414 1.118-1.414 2.01v.03a.5.5 0 0 1-.5.5h-.77a.5.5 0 0 1-.5-.495l-.003-.2c-.043-1.221.477-2.001 1.645-2.712 1.03-.632 1.397-1.135 1.397-2.028 0-.979-.758-1.698-1.926-1.698-1.009 0-1.71.529-1.938 1.402-.066.254-.278.461-.54.461h-.777ZM7.496 14c.622 0 1.095-.474 1.095-1.09 0-.618-.473-1.092-1.095-1.092-.606 0-1.087.474-1.087 1.091S6.89 14 7.496 14Z"/>
+        </svg></i></a></li>
+        <li><a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal" class="btn-floating deep-purple lighten-1"><i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wikipedia" viewBox="0 0 16 16">
+          <path d="M8.835 3.003c.828-.006 2.688 0 2.688 0l.033.03v.288c0 .08-.045.12-.133.12-.433.02-.522.063-.68.29-.087.126-.258.393-.435.694l-1.52 2.843-.043.089 1.858 3.801.113.031 2.926-6.946c.102-.28.086-.478-.044-.595-.132-.114-.224-.18-.563-.195l-.275-.014a.161.161 0 0 1-.096-.035.1.1 0 0 1-.046-.084v-.289l.042-.03h3.306l.034.03v.29c0 .078-.045.117-.133.117-.433.02-.754.113-.962.281a1.64 1.64 0 0 0-.488.704s-2.691 6.16-3.612 8.208c-.353.672-.7.61-1.004-.019A224.05 224.05 0 0 1 8.044 8.81c-.623 1.285-1.475 3.026-1.898 3.81-.411.715-.75.622-1.02.019-.45-1.065-1.131-2.519-1.817-3.982-.735-1.569-1.475-3.149-1.943-4.272-.167-.4-.293-.657-.412-.759-.12-.1-.368-.16-.746-.18C.069 3.429 0 3.395 0 3.341v-.303l.034-.03c.615-.003 3.594 0 3.594 0l.034.03v.288c0 .08-.05.118-.15.118l-.375.016c-.322.013-.483.11-.483.288 0 .083.034.217.109.4.72 1.753 3.207 6.998 3.207 6.998l.091.023 1.603-3.197-.32-.71L6.24 5.095s-.213-.433-.286-.577l-.098-.196c-.387-.77-.411-.82-.865-.88-.137-.017-.208-.035-.208-.102v-.304l.041-.03h2.853l.075.024v.303c0 .069-.05.104-.15.104l-.206.03c-.523.04-.438.254-.09.946l1.057 2.163 1.17-2.332c.195-.427.155-.534.074-.633-.046-.055-.202-.144-.54-.158l-.133-.015a.159.159 0 0 1-.096-.034.099.099 0 0 1-.045-.085v-.288l.041-.03Z"/>
+        </svg></i></a></li>
+        <li><a class="btn-floating deep-purple"><i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+          <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"/>
+          <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
+        </svg></i></a></li>
+        <li><a class="btn-floating deep-purple darken-1"><i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square-text-fill" viewBox="0 0 16 16">
+          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
+        </svg></i></a></li>
+      </ul>
+    </div>
+
+    <main class="container-fluid" >
+      <section class="row justify-content-center m-5 d-flex">
+          <div class="col-12 col-md-6 col-lg-3 mb-3">
+              <div class="card">
+                  <img src="../images/cercle.png" alt="cercle" class="card-img-top img-fluid">
+                   <div class="card-body  d-flex flex-column">
+                      <h1 class="h3 card-title text-center">Question 2/3</h1>
+                      <div class="card-content">
+                        <p class="text-center">Comment calcule t-on le périmètre d'un cercle ?</p>
+                        </div>
+                        <div class="card-action">
+          
+                          <form action="#">
+                          <fieldset>
+                            <legend class="text-center">Choisie la bonne réponse : </legend>
+                          <div class="container-fluid row justify-content-center">
+                            <p>
+                              <label>
+                                <input type="radio" name="q1" value="a" class="purple-radio" />
+                                <span>r² multiplié par pi</span>
+                              </label>
+                            </p>
+                              <p>
+                                <label>
+                                  <input type="radio" name="q1" value="b" class="purple-radio"  />
+                                  <span>2 multiplié par pi multiplié par r</span>
+                                </label>
+                              </p>
+                                  <label>
+                                    <input type="radio" name="q1" value="c" class="purple-radio" />
+                                    <span>2 multiplié par pi multiplié par r²</span>
+                                  </label>
+                                </form>
+                                </fieldset>
+                          </div>
+                              
+                            <a onclick="checkAnswers()" class='btn purple darken-4'  href='#' >Confirmer</a>
+                            <p id="result"></p>
+                      </div>
+                   </div>
+              </div>
+          </div>
+      </section>
+    </main> 
+    
+      <script src="../qcm-js/qcm7.js" src="..js/bootstrap.min.js" src="../js/materialize.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var cars = document.querySelectorAll('.fixed-action-btn');
+            M.FloatingActionButton.init(cars);
+        });
+      </script>
+
+  </body>
+</html>
